@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Eve</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Odd Eve</h1>
+    <div class="winner hide">
+        <p id="win">Winner</p>
+        <button id="newbtn">New Game</button>
+    </div>
+    <div class="toss">
+        <button class="tos" id="heads">Heads</button>
+        <button class="tos" id="tails">Tails</button>
+    </div>
+    <div class="choice hide">
+        <button class="play" id="bat">Bat</button>
+        <button class="play" id="bowl">Bowl</button>
+    </div>
+    <div class="numbers">
+        <button class="nos" value="1" id="one">1</button>
+        <button class="nos" value="2" id="two">2</button>
+        <button class="nos" value="3" id="three">3</button>
+        <button class="nos" value="4" id="four">4</button>
+        <button class="nos" value="5" id="five">5</button>
+        <button class="nos" value="6" id="six">6</button>
+        <button class="nos" value="7" id="seven">7</button>
+        <button class="nos" value="8" id="eight">8</button>
+        <button class="nos" value="9" id="nine">9</button>
+        <button class="nos" value="10" id="ten">10</button>
+    </div>
+    <div class="scores">
+        <div class="user">
+            <p id="uscore">0</p>
+            <p>Your Score</p>
+        </div>
+        <div class="computer">
+            <p id="cscore">0</p>
+            <p>Comp Score</p>
+        </div>
+    </div>
+    <div class="msgc hide">
+        <p id="msg">Your Move</p>
+        <p id="msg3">Comp's Move</p>
+    </div>
+    <div class="msgc2">
+        <p id="msg2">Select Heads or Tails</p>
+    </div>
+    <button class="reset" id="rstbtn">Reset Game</button>
+    <script src="app.js"></script>
+</body>
+</html>
